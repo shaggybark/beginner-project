@@ -25,23 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(ord('W'))
-    {
-    vspeed += 5;
+            <string>if keyboard_check(ord('W')) {
+        vspeed -= 2;
     }
-else if keyboard_check(ord('S'))
-    {
-    vspeed -= 5;
+else if keyboard_check(ord('S')) {
+        vspeed += 2;
     }
-else if keyboard_check(ord('A'))
-    {
-    hspeed -= 5
+else if keyboard_check(ord('A')) {
+        hspeed -= 2;
     }
-else if keyboard_check(ord('D'))
-    {
-    hspeed += 5
+else if keyboard_check(ord('D')) {
+        hspeed += 2;
     }
-
 </string>
           </argument>
         </arguments>
